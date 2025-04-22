@@ -23,8 +23,8 @@ layout_mode = 1
 anchors_preset = -1
 anchor_right = 0.89
 anchor_bottom = 1.113
-offset_right = -3.28003
-offset_bottom = 0.776001
+offset_right = 344.72
+offset_bottom = 40.776
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxTexture_1jk43")
@@ -36,10 +36,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -72.0
-offset_top = -309.0
-offset_right = -5.0
-offset_bottom = -273.0
+offset_left = 82.0
+offset_top = -306.0
+offset_right = 149.0
+offset_bottom = -270.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.972549, 0.858824, 0, 0.894118)
@@ -49,10 +49,10 @@ text = "Back"
 
 [node name="Label" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 396.0
-offset_top = 72.0
-offset_right = 670.0
-offset_bottom = 147.0
+offset_left = 562.0
+offset_top = 67.0
+offset_right = 836.0
+offset_bottom = 142.0
 text = "Karya 1 
 bentuk dasar yang 
 membentuk sesuai referensi
@@ -62,10 +62,10 @@ vertical_alignment = 1
 
 [node name="Label3" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 117.0
-offset_top = 166.0
-offset_right = 299.0
-offset_bottom = 215.0
+offset_left = 253.0
+offset_top = 179.0
+offset_right = 435.0
+offset_bottom = 228.0
 text = "Karya 2
 bentuk dengan animasi
 "
@@ -74,10 +74,10 @@ vertical_alignment = 1
 
 [node name="Label4" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 669.0
-offset_top = 156.0
-offset_right = 971.0
-offset_bottom = 231.0
+offset_left = 906.0
+offset_top = 169.0
+offset_right = 1208.0
+offset_bottom = 244.0
 text = "Karya 3
 bentuk dengan animasi 
 dan fill warna"
@@ -86,10 +86,10 @@ vertical_alignment = 1
 
 [node name="Label5" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 365.0
-offset_top = 188.0
-offset_right = 690.0
-offset_bottom = 289.0
+offset_left = 546.0
+offset_top = 180.0
+offset_right = 871.0
+offset_bottom = 281.0
 text = "Karya 4
 menampilkan bentuk dengan animasi 
 dan fill warna yang dapat menerima input 
@@ -99,10 +99,10 @@ vertical_alignment = 1
 
 [node name="Label6" type="Label" parent="Control"]
 layout_mode = 0
-offset_left = 358.0
-offset_top = 303.0
-offset_right = 697.0
-offset_bottom = 612.0
+offset_left = 539.0
+offset_top = 300.0
+offset_right = 878.0
+offset_bottom = 609.0
 text = "\"P - Pause denyut\",
 	\"Space - Percepat denyut pura dan pulau\",
 	\"Shift - Ubah arah rotasi bunga\",

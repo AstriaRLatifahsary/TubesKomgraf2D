@@ -16,8 +16,8 @@ modulate_color = Color(0.494118, 0.494118, 0.494118, 1)
 script = ExtResource("1_u4nyh")
 
 [node name="Panel" type="Panel" parent="."]
-offset_right = 1027.0
-offset_bottom = 718.0
+offset_right = 1374.0
+offset_bottom = 797.0
 theme_override_styles/panel = SubResource("StyleBoxTexture_hu8x0")
 
 [node name="Label" type="Label" parent="."]
@@ -26,10 +26,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 391.0
-offset_top = 141.0
-offset_right = 646.0
-offset_bottom = 191.0
+offset_left = 598.0
+offset_top = 136.0
+offset_right = 853.0
+offset_bottom = 186.0
 grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 0
@@ -39,19 +39,19 @@ theme_override_font_sizes/font_size = 45
 text = "My Profile!"
 
 [node name="TextureRect" type="TextureRect" parent="."]
-offset_left = 100.0
-offset_top = 246.0
-offset_right = 269.0
-offset_bottom = 411.0
+offset_left = 290.0
+offset_top = 251.0
+offset_right = 459.0
+offset_bottom = 416.0
 texture = ExtResource("3_ia2bh")
 expand_mode = 1
 stretch_mode = 5
 
 [node name="TextureRect2" type="TextureRect" parent="."]
-offset_left = 683.0
-offset_top = 251.0
-offset_right = 982.0
-offset_bottom = 421.0
+offset_left = 937.0
+offset_top = 244.0
+offset_right = 1236.0
+offset_bottom = 414.0
 texture = ExtResource("4_xxjc1")
 expand_mode = 1
 stretch_mode = 5
@@ -62,10 +62,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 475.0
-offset_top = 16.0
-offset_right = 542.0
-offset_bottom = 52.0
+offset_left = 689.0
+offset_top = 9.0
+offset_right = 756.0
+offset_bottom = 45.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.972549, 0.858824, 0, 0.894118)
@@ -77,9 +77,9 @@ text = "Back"
 anchors_preset = -1
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = 305.0
+offset_left = 523.0
 offset_top = 329.0
-offset_right = 721.0
+offset_right = 939.0
 offset_bottom = 443.0
 grow_horizontal = 2
 grow_vertical = 2

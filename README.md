@@ -1,22 +1,75 @@
-# 🎨 Pura Visualisasi dan Animasi dengan Godot Engine
+==============================
+🎨 Readme.txt - Proyek Budaya Bali Interaktif
+==============================
 
-Proyek ini adalah visualisasi programatik sebuah **pura** (tempat ibadah umat Hindu) yang digambar dan dianimasikan menggunakan **Godot Engine** dan bahasa **C#**. Bangunan pura terdiri dari bentuk-bentuk geometri dasar seperti persegi panjang, trapesium bertingkat, dan segitiga, serta sebuah **pulau penopang berbentuk setengah elips** di bawahnya. Proyek ini juga mendukung **animasi efek nafas** dan **interaktivitas** melalui input keyboard.
+📌 Nama Program:
+Proyek Visualisasi dan Animasi Budaya Bali Interaktif
+(Meliputi: Pura, Bunga Kamboja, Motif Endek, Sate Lilit, Pola Poleng)
 
-# 🎨 Proyek Bunga Kamboja - Godot Engine (C#)
+👤 Penulis Program:
+Astria Rizka Latifahsary  
+Menggunakan Godot Engine dan Bahasa Pemrograman C#
 
-Proyek ini menampilkan visualisasi **bunga kamboja** yang dibentuk menggunakan **Godot Engine** dengan bahasa pemrograman **C#**. Proyek ini dibagi menjadi beberapa tahap: mulai dari menggambar bentuk dasar bunga, menambahkan animasi, pewarnaan dengan efek, hingga menambahkan interaksi pengguna.
+📝 Deskripsi:
+Proyek ini adalah serangkaian karya visual dan animasi yang merepresentasikan kekayaan budaya Bali secara digital dan interaktif. Setiap karya dibuat dengan teknik geometris dan efek animasi dinamis, serta dapat dikendalikan oleh pengguna melalui keyboard. Elemen-elemen visual seperti pura, bunga kamboja, motif kain tradisional Endek dan Poleng, hingga makanan khas seperti sate lilit divisualisasikan dengan pendekatan artistik dan terstruktur.
 
-# 🎨 Motif Endek Bali - Visualisasi Interaktif di Godot Engine
+📅 Jadwal Planning dan Progress:
+
+🔹1
+- Riset visual budaya Bali
+- Menentukan bentuk geometris untuk tiap elemen
+
+🔹2
+- Implementasi bentuk statis:
+  - Pura
+  - Bunga kamboja
+  - Motif Endek
+  - Sate lilit
+  - Pola poleng checkerboard
+
+🔹3
+- Menambahkan animasi:
+  - Efek nafas pura & pulau
+  - Bunga berputar dan berdetak
+  - Motif Endek bergerak seperti terkena angin
+  - Animasi sate lilit naik-turun
+  - Pola poleng muncul bertahap + gelombang
+
+🔹4
+- Pewarnaan visual dan efek warna dinamis
+- Penyesuaian transparansi dan gradasi
+
+🔹5
+- Menambahkan interaksi keyboard untuk masing-masing motif
+- Mengatur logika kontrol (pause, skala, arah, warna, posisi)
+
+🔹6 (Finalisasi)
+- Pengujian interaksi dan animasi
+
+🎯 Output Akhir:
+Kumpulan karya visual budaya Bali yang dapat ditampilkan secara real-time, interaktif, dan estetis, menggunakan Godot Engine berbasis C#.
+
+---
+
+## 🎨 Pura Visualisasi dan Animasi dengan Godot Engine
+
+Visualisasi programatik sebuah **pura** (tempat ibadah umat Hindu) yang digambar dan dianimasikan menggunakan **Godot Engine** dan bahasa **C#**. Bangunan pura terdiri dari bentuk-bentuk geometri dasar seperti persegi panjang, trapesium bertingkat, dan segitiga, serta sebuah **pulau penopang berbentuk setengah elips** di bawahnya. Proyek ini juga mendukung **animasi efek nafas** dan **interaktivitas** melalui input keyboard.
+
+## 🎨 Proyek Bunga Kamboja - Godot Engine (C#)
+
+Visualisasi **bunga kamboja** yang dibentuk menggunakan **Godot Engine** dengan bahasa pemrograman **C#**. Proyek ini dibagi menjadi beberapa tahap: mulai dari menggambar bentuk dasar bunga, menambahkan animasi, pewarnaan dengan efek, hingga menambahkan interaksi pengguna.
+
+## 🎨 Motif Endek Bali - Visualisasi Interaktif di Godot Engine
 
 Representasi digital dari **motif kain tradisional Endek Bali** dalam bentuk visual dinamis yang dibuat menggunakan **Godot Engine** dan **C#**. Proyek ini menampilkan empat komponen utama: _bentuk_, _animasi_, _warna_, dan _interaksi pengguna_ untuk menghadirkan pengalaman visual yang artistik dan interaktif.
 
-# 🎨 Proyek Visualisasi dan Animasi Sate Lilit
+## 🎨 Proyek Visualisasi dan Animasi Sate Lilit
 
-Proyek ini dibuat menggunakan **Godot Engine** dan **C#**, berfokus pada representasi visual dan animasi sate lilit, makanan khas Bali. Terdapat empat tahap pengembangan yaitu **Bentuk**, **Animasi**, **Warna**, dan **Interaksi**.
+Representasi visual dan animasi sate lilit, makanan khas Bali. Terdapat empat tahap pengembangan yaitu **Bentuk**, **Animasi**, **Warna**, dan **Interaksi**.
 
-# 🎨 Proyek Visualisasi Pola Poleng Bali dengan Motif Bunga Klasik
+## 🎨 Proyek Visualisasi Pola Poleng Bali dengan Motif Bunga Klasik
 
-Proyek ini merupakan serangkaian eksperimen visual menggunakan **Godot Engine** dan bahasa **C#** untuk menampilkan **pola kain poleng** khas Bali — kain kotak-kotak hitam putih — yang dipadukan dengan **motif bunga klasik bergaya pixel art**. Proyek ini terdiri dari empat tahapan utama:
+Visualisasi menggunakan **Godot Engine** dan bahasa **C#** untuk menampilkan **pola kain poleng** khas Bali — kain kotak-kotak hitam putih — yang dipadukan dengan **motif bunga klasik bergaya pixel art**. Proyek ini terdiri dari empat tahapan utama:
 
 ---
 

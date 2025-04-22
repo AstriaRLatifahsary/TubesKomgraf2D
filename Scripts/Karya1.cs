@@ -147,8 +147,6 @@ public partial class Karya1 : Node2D
 	private void InisialisasiMotifEndek()
 	{
 		Vector2 posisiEndek = new Vector2(695, 300); 
-		//float lebarEndek = 80;
-		//float tinggiEndek = 120;
 
 		_motifEndekList = new List<List<Vector2>>();
 
