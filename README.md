@@ -166,7 +166,7 @@ Visualisasi sederhana pola kain poleng berbentuk kotak hitam-putih (checkerboard
 - `_Draw()`: Menggambar semua bentuk putih.
 
 ### 🎯 Hasil
-Tampilan pola kotak-kotak hitam-putih dengan motif bunga di tengah kotak putih, digambar sebagai outline poligon putih.
+Tampilan pola kotak-kotak hitam-putih dengan motif bunga di tengah kotak putih, digambar sebagai outline.
 
 ---
 
