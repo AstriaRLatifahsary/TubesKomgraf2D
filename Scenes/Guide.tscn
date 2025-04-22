@@ -1,0 +1,121 @@
+[gd_scene load_steps=5 format=3 uid="uid://bg5ox5qhmnh45"]
+
+[ext_resource type="Texture2D" uid="uid://dbdgfhokjlpyt" path="res://Asset/Guide.png" id="1_707p4"]
+[ext_resource type="Script" path="res://Scripts/Guide.cs" id="1_fqf8n"]
+[ext_resource type="FontFile" uid="uid://cuuhe2y3xvqag" path="res://Asset/Cute Dino.ttf" id="2_svddt"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1jk43"]
+texture = ExtResource("1_707p4")
+modulate_color = Color(0.494118, 0.494118, 0.494118, 1)
+
+[node name="Guide" type="Node2D"]
+position = Vector2(0, -1)
+script = ExtResource("1_fqf8n")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Panel" type="Panel" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.89
+anchor_bottom = 1.113
+offset_right = -3.28003
+offset_bottom = 0.776001
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_1jk43")
+
+[node name="BtnBack" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -72.0
+offset_top = -309.0
+offset_right = -5.0
+offset_bottom = -273.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.972549, 0.858824, 0, 0.894118)
+theme_override_fonts/font = ExtResource("2_svddt")
+theme_override_font_sizes/font_size = 25
+text = "Back"
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 396.0
+offset_top = 72.0
+offset_right = 670.0
+offset_bottom = 147.0
+text = "Karya 1 
+bentuk dasar yang 
+membentuk sesuai referensi
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 117.0
+offset_top = 166.0
+offset_right = 299.0
+offset_bottom = 215.0
+text = "Karya 2
+bentuk dengan animasi
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 669.0
+offset_top = 156.0
+offset_right = 971.0
+offset_bottom = 231.0
+text = "Karya 3
+bentuk dengan animasi 
+dan fill warna"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 365.0
+offset_top = 188.0
+offset_right = 690.0
+offset_bottom = 289.0
+text = "Karya 4
+menampilkan bentuk dengan animasi 
+dan fill warna yang dapat menerima input 
+dari keyboard"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label6" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 358.0
+offset_top = 303.0
+offset_right = 697.0
+offset_bottom = 612.0
+text = "\"P - Pause denyut\",
+	\"Space - Percepat denyut pura dan pulau\",
+	\"Shift - Ubah arah rotasi bunga\",
+	\"T - Tambah ukuran bunga\",
+	\"K - Kurangi ukuran bunga\",
+	\"W - Ubah warna motif endek\",
+	\"G - Dekatkan sate lilit\",
+	\"L - Jauhkan sate lilit\",
+	\"A - Pola poleng ke kiri\",
+	\"D - Pola poleng ke kanan\",
+	\"U - Pola poleng ke atas\",
+	\"B - Pola poleng ke bawah\""
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Control/BtnBack" to="." method="_on_BtnBack_pressed"]

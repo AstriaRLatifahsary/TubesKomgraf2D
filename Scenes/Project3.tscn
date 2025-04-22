@@ -1,0 +1,69 @@
+[gd_scene load_steps=7 format=3 uid="uid://du80c3yghkcin"]
+
+[ext_resource type="Script" path="res://Scripts/Karya3.cs" id="1_ugcoc"]
+[ext_resource type="Texture2D" uid="uid://clrnes8rhp70v" path="res://Asset/Project1.png" id="2_oxgd7"]
+[ext_resource type="FontFile" uid="uid://cuuhe2y3xvqag" path="res://Asset/Cute Dino.ttf" id="3_1ckaq"]
+[ext_resource type="Script" path="res://Scripts/Project1.cs" id="4_ewv5h"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_1algf"]
+texture = ExtResource("2_oxgd7")
+modulate_color = Color(0.494118, 0.494118, 0.494118, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_uoxb8"]
+
+[node name="Project3" type="Node2D"]
+position = Vector2(0, -1)
+script = ExtResource("1_ugcoc")
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+offset_right = 1150.0
+offset_bottom = 643.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_1algf")
+
+[node name="Label" type="Label" parent="."]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -179.5
+offset_top = -38.0
+offset_right = 179.5
+offset_bottom = 38.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_1ckaq")
+theme_override_font_sizes/font_size = 60
+theme_override_styles/normal = SubResource("StyleBoxEmpty_uoxb8")
+text = "Coming soon ~"
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -33.0
+offset_top = -300.0
+offset_right = 27.0
+offset_bottom = -263.0
+
+[node name="BtnBack" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 9.928
+anchor_top = 17.165
+anchor_right = 9.928
+anchor_bottom = 17.165
+offset_left = 89.3199
+offset_top = -323.105
+offset_right = 156.32
+offset_bottom = -287.105
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.972549, 0.858824, 0, 0.894118)
+theme_override_fonts/font = ExtResource("3_1ckaq")
+theme_override_font_sizes/font_size = 25
+text = "Back"
+script = ExtResource("4_ewv5h")
+
+[connection signal="pressed" from="Control/BtnBack" to="Control/BtnBack" method="_on_BtnBack_pressed"]

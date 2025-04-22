@@ -1,0 +1,109 @@
+[gd_scene load_steps=8 format=3 uid="uid://nbhyqtn1l4nk"]
+
+[ext_resource type="Texture2D" uid="uid://db73c4o1kq50m" path="res://Asset/About.png" id="1_6hkqw"]
+[ext_resource type="Script" path="res://Scripts/About.cs" id="1_u4nyh"]
+[ext_resource type="FontFile" uid="uid://cuuhe2y3xvqag" path="res://Asset/Cute Dino.ttf" id="2_nlsc7"]
+[ext_resource type="Texture2D" uid="uid://dyfbanm4h6xfv" path="res://Asset/profile1.png" id="3_ia2bh"]
+[ext_resource type="Texture2D" uid="uid://5hoijujwvr7u" path="res://Asset/profile2.png" id="4_xxjc1"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_hu8x0"]
+texture = ExtResource("1_6hkqw")
+modulate_color = Color(0.494118, 0.494118, 0.494118, 1)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7ctsw"]
+
+[node name="About" type="Node2D"]
+script = ExtResource("1_u4nyh")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1027.0
+offset_bottom = 718.0
+theme_override_styles/panel = SubResource("StyleBoxTexture_hu8x0")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 391.0
+offset_top = 141.0
+offset_right = 646.0
+offset_bottom = 191.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 0
+size_flags_vertical = 1
+theme_override_fonts/font = ExtResource("2_nlsc7")
+theme_override_font_sizes/font_size = 45
+text = "My Profile!"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 100.0
+offset_top = 246.0
+offset_right = 269.0
+offset_bottom = 411.0
+texture = ExtResource("3_ia2bh")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = 683.0
+offset_top = 251.0
+offset_right = 982.0
+offset_bottom = 421.0
+texture = ExtResource("4_xxjc1")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BtnBack" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 475.0
+offset_top = 16.0
+offset_right = 542.0
+offset_bottom = 52.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0.972549, 0.858824, 0, 0.894118)
+theme_override_fonts/font = ExtResource("2_nlsc7")
+theme_override_font_sizes/font_size = 25
+text = "Back"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = -1
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 305.0
+offset_top = 329.0
+offset_right = 721.0
+offset_bottom = 443.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Nama" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_nlsc7")
+theme_override_font_sizes/font_size = 34
+theme_override_styles/normal = SubResource("StyleBoxTexture_7ctsw")
+text = "Astria Rizka Latifahsary"
+horizontal_alignment = 1
+
+[node name="Kelas" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_nlsc7")
+theme_override_font_sizes/font_size = 30
+text = "D4 2B"
+horizontal_alignment = 1
+
+[node name="NIM" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_nlsc7")
+theme_override_font_sizes/font_size = 30
+text = "231524037"
+horizontal_alignment = 1
+
+[connection signal="pressed" from="BtnBack" to="." method="_on_BtnBack_pressed"]

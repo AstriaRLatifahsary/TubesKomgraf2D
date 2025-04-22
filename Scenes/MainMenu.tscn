@@ -1,0 +1,202 @@
+[gd_scene load_steps=8 format=3 uid="uid://4eqovkostrkn"]
+
+[ext_resource type="Script" path="res://Scripts/MainMenu.cs" id="1_0b5pr"]
+[ext_resource type="Texture2D" uid="uid://ccv17rkjmw7f" path="res://Asset/Blue Pixel Illustration Game.png" id="2_u5j1o"]
+[ext_resource type="FontFile" uid="uid://cuuhe2y3xvqag" path="res://Asset/Cute Dino.ttf" id="3_1nvtd"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_be3m0"]
+texture = ExtResource("2_u5j1o")
+modulate_color = Color(0.492237, 0.492237, 0.492237, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_41pew"]
+bg_color = Color(0.192157, 0.462745, 0.741176, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_74ip8"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+shadow_size = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_avu8q"]
+bg_color = Color(0.843184, 0.843184, 0.843184, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+shadow_size = 4
+
+[node name="MainMenu" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0b5pr")
+
+[node name="Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_be3m0")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -122.0
+offset_top = -74.0
+offset_right = 122.0
+offset_bottom = 232.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="BtnProject1" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "Project 1"
+
+[node name="BtnProject2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "Project 2"
+
+[node name="BtnProject3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "Project 3"
+
+[node name="BtnProject4" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "Project 4"
+
+[node name="BtnAbout" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "About"
+
+[node name="BtnGuide" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "Guide"
+
+[node name="BtnExit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+focus_mode = 1
+theme_override_colors/font_hover_color = Color(0.854634, 0.854634, 0.854634, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.321569, 0.647059, 0.917647, 0.843137)
+theme_override_colors/font_color = Color(0, 0.392245, 0.829166, 0.85098)
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 28
+theme_override_styles/hover = SubResource("StyleBoxFlat_41pew")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_74ip8")
+theme_override_styles/normal = SubResource("StyleBoxFlat_avu8q")
+text = "Exit"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -349.0
+offset_top = -208.0
+offset_right = 350.0
+offset_bottom = -104.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0.106545, 0.339437, 0.520628, 1)
+theme_override_constants/shadow_offset_x = 3
+theme_override_constants/shadow_offset_y = 5
+theme_override_fonts/font = ExtResource("3_1nvtd")
+theme_override_font_sizes/font_size = 68
+text = "The World of KiwPeh"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/BtnProject1" to="." method="_on_BtnProject1_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnProject2" to="." method="_on_BtnProject2_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnProject3" to="." method="_on_BtnProject3_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnProject4" to="." method="_on_BtnProject4_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnAbout" to="." method="_on_BtnAbout_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnGuide" to="." method="_on_BtnGuide_pressed"]
+[connection signal="pressed" from="VBoxContainer/BtnExit" to="." method="_on_BtnExit_pressed"]
