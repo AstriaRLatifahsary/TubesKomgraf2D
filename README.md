@@ -341,7 +341,7 @@ Visualisasi dinamis dengan warna-warna cerah yang bergerak mengikuti efek gelomb
 
 ---
 
-# **Karya 3**
+# **Karya 4**
 
 ## 🎮 1. Interaksi: Pura dan Pulau Kontrol Animasi dengan Keyboard
 
