@@ -1,29 +1,29 @@
 # 🎨 Pura Visualisasi dan Animasi dengan Godot Engine
-```
+
 Proyek ini adalah visualisasi programatik sebuah **pura** (tempat ibadah umat Hindu) yang digambar dan dianimasikan menggunakan **Godot Engine** dan bahasa **C#**. Bangunan pura terdiri dari bentuk-bentuk geometri dasar seperti persegi panjang, trapesium bertingkat, dan segitiga, serta sebuah **pulau penopang berbentuk setengah elips** di bawahnya. Proyek ini juga mendukung **animasi efek nafas** dan **interaktivitas** melalui input keyboard.
-```
+
 # 🎨 Proyek Bunga Kamboja - Godot Engine (C#)
-```
+
 Proyek ini menampilkan visualisasi **bunga kamboja** yang dibentuk menggunakan **Godot Engine** dengan bahasa pemrograman **C#**. Proyek ini dibagi menjadi beberapa tahap: mulai dari menggambar bentuk dasar bunga, menambahkan animasi, pewarnaan dengan efek, hingga menambahkan interaksi pengguna.
-```
+
 # 🎨 Motif Endek Bali - Visualisasi Interaktif di Godot Engine
-```
+
 Representasi digital dari **motif kain tradisional Endek Bali** dalam bentuk visual dinamis yang dibuat menggunakan **Godot Engine** dan **C#**. Proyek ini menampilkan empat komponen utama: _bentuk_, _animasi_, _warna_, dan _interaksi pengguna_ untuk menghadirkan pengalaman visual yang artistik dan interaktif.
-```
+
 # 🎨 Proyek Visualisasi dan Animasi Sate Lilit
-```
+
 Proyek ini dibuat menggunakan **Godot Engine** dan **C#**, berfokus pada representasi visual dan animasi sate lilit, makanan khas Bali. Terdapat empat tahap pengembangan yaitu **Bentuk**, **Animasi**, **Warna**, dan **Interaksi**.
-```
+
 # 🎨 Proyek Visualisasi Pola Poleng Bali dengan Motif Bunga Klasik
-```
+
 Proyek ini merupakan serangkaian eksperimen visual menggunakan **Godot Engine** dan bahasa **C#** untuk menampilkan **pola kain poleng** khas Bali — kain kotak-kotak hitam putih — yang dipadukan dengan **motif bunga klasik bergaya pixel art**. Proyek ini terdiri dari empat tahapan utama:
-```
+
 ---
-```
+
 # **Karya 1**
-```
+
 ## 🔷 1. Bentuk: Visualisasi Statik Pura
-```
+
 ### Deskripsi
 Visualisasi statik pura digambar menggunakan metode `DrawLine` dan `DrawPolyline` pada node `Node2D`, yang menggambarkan:
 - **Dasar**: Persegi panjang
@@ -37,9 +37,9 @@ Visualisasi statik pura digambar menggunakan metode `DrawLine` dan `DrawPolyline
   - `InisialisasiPura()` — Menentukan posisi dan bentuk bangunan
   - `GeneratePulauCustom()` — Menghasilkan titik-titik setengah elips
   - `DrawPolygonLines()` — Menggambar bentuk dengan garis
-```
+
 ## 🌸 2. Bentuk: Visualisasi Bunga Dasar
-```
+
 ### Deskripsi
 Bunga kamboja digambar secara programatik menggunakan kelopak berbentuk **elips** yang tersusun melingkar. Setiap kelopak dibuat dengan menggambar poligon yang menyerupai elips dan disusun mengelilingi pusat bunga.
 
@@ -51,9 +51,9 @@ Bunga kamboja digambar secara programatik menggunakan kelopak berbentuk **elips*
 ### Struktur Kode
 - `BentukDasar.cs`: Membuat bentuk dasar elips.
 - `Bunga.cs`: Menyusun kelopak menjadi satu bunga dan menggambarnya.
-```
+
 ## 🧱 3. Bentuk: Visualisasi Motif Endek Dasar
-```
+
 ### Deskripsi
 Pola dasar yang membentuk motif kain Endek terdiri dari bentuk-bentuk geometris seperti:
 
@@ -75,9 +75,9 @@ Bentuk-bentuk ini disusun dalam _grid baris dan kolom_ dengan offset pada baris 
 
 ### Output Visual
 Motif akan tampak seperti susunan anyaman simetris dengan kotak kecil di tengah ketupat besar, dikelilingi bingkai luar.
-```
+
 ## 🟦 4. Bentuk: Visualisasi Dasar Sate Lilit
-```
+
 ### Sate Lilit
 
 Visualisasi ini menampilkan **Sate Lilit**, makanan khas Bali, dengan menggunakan kombinasi bentuk-bentuk geometris sederhana.
@@ -96,9 +96,9 @@ Visualisasi ini menampilkan **Sate Lilit**, makanan khas Bali, dengan menggunaka
 
 🎯 **Hasil Visual**  
 Dua set sate lilit simetris kiri dan kanan bawah layar.
-```
+
 ## 📐 5. Bentuk: Pola Poleng Dasar
-```
+
 ### 📦 Deskripsi
 Visualisasi sederhana pola kain poleng berbentuk kotak hitam-putih (checkerboard), ditambah motif bunga klasik di kotak putih.
 
@@ -114,13 +114,13 @@ Visualisasi sederhana pola kain poleng berbentuk kotak hitam-putih (checkerboard
 
 ### 🎯 Hasil
 Tampilan pola kotak-kotak hitam-putih dengan motif bunga di tengah kotak putih, digambar sebagai outline poligon putih.
-```
+
 ---
-```
+
 # **Karya 2**
-```
+
 ## 🌬️ 1. Animasi: Efek Nafas Pura dan Pulau
-```
+
 ### Deskripsi
 Bentuk pura dan pulau dianimasikan dengan transformasi skala yang membuat keduanya tampak **bernafas**, menggunakan fungsi `sin(time)`.
 
@@ -135,7 +135,7 @@ Bentuk pura dan pulau dianimasikan dengan transformasi skala yang membuat keduan
 
 
 ## 🎞️ 2. Animasi: Bunga Berputar dan Berdetak
-```
+
 ### Deskripsi
 Bunga dianimasikan dengan **rotasi** dan **denyut (skala berubah)**. Setiap bunga tampak hidup dengan gerakan yang terus berubah seiring waktu.
 
@@ -148,9 +148,9 @@ Bunga dianimasikan dengan **rotasi** dan **denyut (skala berubah)**. Setiap bung
 - `_Process(double delta)`: Memperbarui waktu dan memicu redrawing.
 - `DrawWithRotationAndScale()`: Menggambar dengan rotasi dan skala.
 - `DrawPolygonLines()`: Menggambar outline poligon.
-```
+
 ## 🌊 3. Animasi: Motif Endek
-```
+
 ### Deskripsi
 Motif Endek dianimasikan untuk menciptakan kesan hidup dan dinamis seperti diterpa angin.
 
@@ -170,9 +170,9 @@ Motif Endek dianimasikan untuk menciptakan kesan hidup dan dinamis seperti diter
 
 ### Hasil
 Pola motif bergerak secara diagonal dengan efek naik-turun, seolah-olah sedang ditiup angin.
-```
+
 ## 4. Animasi: Sate Lilit Animasi
-```
+
 Proyek ini menambahkan animasi ke sate lilit, di mana tiap tusuk sate dan lilitannya bergerak naik-turun dengan efek sinusoidal.
 
 ### Fitur:
@@ -185,9 +185,9 @@ Proyek ini menambahkan animasi ke sate lilit, di mana tiap tusuk sate dan lilita
 - `_Process()`: Update posisi berdasarkan waktu.
 - `_Draw()`: Menggambar sate dengan posisi yang berubah.
 - `OffsetPoints()`: Geser titik untuk animasi.
-```
+
 ## 5. Animasi: Pola Poleng Muncul Bertahap + Efek Gelombang
-```
+
 ### 📦 Deskripsi
 Menampilkan motif bunga satu per satu pada kotak putih, lalu menambahkan efek gelombang sinusoidal setelah semua motif muncul.
 
@@ -202,13 +202,13 @@ Menampilkan motif bunga satu per satu pada kotak putih, lalu menambahkan efek ge
 
 ### 🎯 Hasil
 Animasi progresif dari bunga pixel yang muncul lalu bergerak seperti terkena angin atau gelombang.
-```
+
 ---
-```
+
 # **Karya 3**
-```
+
 ## 🌈 1. Warna: Pura Pulau Poligon Berwarna
-```
+
 ### Deskripsi
 Bentuk pura dan pulau tidak hanya digambar dengan garis, namun juga **diwarnai** dengan pengisian warna menggunakan `DrawPolygon`.
 
@@ -220,9 +220,9 @@ Bentuk pura dan pulau tidak hanya digambar dengan garis, namun juga **diwarnai**
 ### Struktur Tambahan
 - `DrawPolygon(points, Color color)` — Menggambar isi poligon
 - `DrawWithTransform(origin, scale, drawAction)` — Menggambar dengan skala
-```
+
 ## 🎨 2. Warna: Pewarnaan Kelopak dan Inti Bunga
-```
+
 ### Deskripsi
 Setiap bunga memiliki kelopak putih yang memudar secara dinamis, serta lingkaran tengah berwarna kuning. Efek denyut dan transparansi menambah nuansa hidup pada bunga.
 
@@ -235,9 +235,9 @@ Setiap bunga memiliki kelopak putih yang memudar secara dinamis, serta lingkaran
 - `Color kelopak = new Color(1, 1, 1, alpha);`
 - `Color inti = new Color(1, 1, 0, alpha);`
 - `DrawCircle()` untuk menggambar inti bunga.
-```
+
 ## 🎨 3. Warna: Motif Endek
-```
+
 ### Deskripsi
 Setiap motif memiliki efek warna transparan dan dapat berubah secara dinamis seiring waktu.
 
@@ -252,9 +252,9 @@ Setiap motif memiliki efek warna transparan dan dapat berubah secara dinamis sei
 
 ### Efek Visual
 - Motif tampak berkedip-kedip atau berubah warna secara lembut, memperkuat kesan artistik dan hidup.
-```
+
 ## 4. Warna: Sate Lilit Animasi 
-```
+
 Menambahkan warna untuk meningkatkan visualisasi sate lilit:
 - Batang tusuk sate: Hijau
 - Lilitan daging: Coklat
@@ -267,9 +267,9 @@ Menambahkan warna untuk meningkatkan visualisasi sate lilit:
 ### Struktur Kode:
 - `DrawPolygon()`: Menggambar poligon dengan fill warna.
 - Parameter warna untuk masing-masing bagian sate.
-```
+
 ## 🌈 5. Warna: Pola Poleng dengan Fill Warna dan Efek Gelombang
-```
+
 ### 📦 Deskripsi
 Menerapkan warna-warni pada kotak dan bunga, disertai efek gelombang waktu nyata (real-time wave).
 
@@ -285,11 +285,11 @@ Menerapkan warna-warni pada kotak dan bunga, disertai efek gelombang waktu nyata
 
 ### 🎯 Hasil
 Visualisasi dinamis dengan warna-warna cerah yang bergerak mengikuti efek gelombang.
-```
+
 ---
-```
+
 # **Karya 3**
-```
+
 ## 🎮 1. Interaksi: Pura dan Pulau Kontrol Animasi dengan Keyboard
 
 ### Deskripsi
@@ -306,9 +306,9 @@ Animasi kini bisa **dikendalikan oleh pemain** melalui input keyboard:
 ### Struktur Kode Tambahan
 - `Input.IsActionJustPressed("pause")` → Toggle animasi
 - `Input.IsActionPressed("accelerate")` → Modifikasi frekuensi sinus
-```
+
 ## 🎮 2. Interaksi: Bunga Kendali Animasi dengan Keyboard
-```
+
 ### Deskripsi
 Pengguna dapat berinteraksi dengan bunga menggunakan tombol keyboard untuk mengubah arah rotasi, memperbesar/memperkecil bunga, serta menjeda animasi.
 
@@ -329,9 +329,9 @@ Pengguna dapat berinteraksi dengan bunga menggunakan tombol keyboard untuk mengu
 - `BentukDasar.cs`: Fungsi utilitas untuk membuat bentuk elips.
 - `Bunga.cs`: Kelas inti bunga, mencakup posisi, rotasi, skala, dan warna.
 - `Main.cs` (atau Node utama): Menjalankan animasi, menggambar bunga, dan menangani input.
-```
+
 ## 🕹️ 3. Interaksi: Motif Endek
-```
+
 ### Deskripsi
 Pengguna dapat berinteraksi dengan motif secara langsung menggunakan input keyboard.
 
@@ -348,9 +348,9 @@ Pengguna dapat berinteraksi dengan motif secara langsung menggunakan input keybo
 
 ### Potensi Ekstensi
 - Menambahkan kontrol lainnya (seperti slider atau mouse click) untuk mengubah amplitudo atau frekuensi animasi secara langsung.
-```
+
 ## 4. Interaksi: Sate Lilit Animasi Fill Warna
-```
+
 Menambahkan interaktivitas ke dalam animasi sate lilit dengan tombol keyboard:
 - Tekan **G** untuk mendekatkan sate.
 - Tekan **L** untuk menjauhkan sate.
@@ -364,9 +364,9 @@ Menambahkan interaktivitas ke dalam animasi sate lilit dengan tombol keyboard:
 - `Input()`: Mendeteksi input pengguna.
 - `UpdateSateLilit()`: Perbarui posisi sate berdasarkan jarak.
 - `_Draw()`: Menggambar sate berdasarkan posisi baru.
-```
+
 ## 🎮 5. Interaksi: Pola Poleng dengan Pergerakan Manual via Keyboard
-```
+
 ### 📦 Deskripsi
 Menambahkan kontrol pengguna pada animasi pola. Pola dapat digerakkan menggunakan keyboard (A, D, U, B).
 
@@ -383,4 +383,3 @@ Menambahkan kontrol pengguna pada animasi pola. Pola dapat digerakkan menggunaka
 
 ### 🎯 Hasil
 Visual pola yang bisa dikendalikan pengguna sambil tetap mempertahankan animasi dan gelombang.
-```
