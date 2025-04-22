@@ -94,7 +94,7 @@ Visualisasi statik pura digambar menggunakan metode `DrawLine` dan `DrawPolyline
 ## 🌸 2. Bentuk: Visualisasi Bunga Dasar
 
 ### Deskripsi
-Bunga kamboja digambar secara programatik menggunakan kelopak berbentuk **elips** yang tersusun melingkar. Setiap kelopak dibuat dengan menggambar poligon yang menyerupai elips dan disusun mengelilingi pusat bunga.
+Bunga kamboja digambar secara programatik menggunakan kelopak berbentuk **elips** yang tersusun melingkar. Setiap kelopak dibuat dengan elips dan disusun mengelilingi pusat bunga.
 
 ### Fitur
 - Menggambar beberapa bunga pada posisi berbeda.
